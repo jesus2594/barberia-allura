@@ -1,10 +1,41 @@
-.productos {
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.productos{
     width: 940px;
     margin: 0 auto;
     padding: 50px;
 }
 
-.productos li {
+
+.productos li{
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -14,17 +45,18 @@
     box-sizing: border-box;
 }
 
-.productos h2 {
+
+.productos h2{
     font-size: 30px;
     font-weight: bold;
 }
 
-.producto-descripcion {
+.producto-descripcion{
     font-size: 18px;
 }
 
-.producto-precio {
+.producto-precio{
     font-size: 20px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top:10px;
 }
